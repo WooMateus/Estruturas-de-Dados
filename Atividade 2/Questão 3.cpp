@@ -14,6 +14,16 @@ int main()
         soma = soma + vetor[i];
     }
     
+    cout << endl << "Valores: ";
+    for (int i=0; i < 10; i++) {
+        cout << "[" << vetor[i] << "] ";
+    }
+    
+    cout << endl << "Valores na ordem inversa: ";
+    for (int i=9; i > -1; i--) {
+        cout << "[" << vetor[i] << "] ";
+    }
+    
     media = soma / 10;
     cout << endl << "Média: " << media << endl;
     
