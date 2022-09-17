@@ -2,9 +2,12 @@
 
 using namespace std;
 
+/* Faça um programa que leia 10 valores reais e os apresente na ordem inversa à
+entrada. */
+
 int main()
 {
-    int vetor[10];
+    float vetor[10];
     
     cout << "Insira os valores: " << endl;
     for (int i=0; i < 10; i++) {
