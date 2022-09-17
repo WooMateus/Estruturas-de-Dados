@@ -2,6 +2,9 @@
 
 using namespace std;
 
+/* Faça um programa que leia 5 valores inteiros, armazene-os em um vetor, calcule
+e apresente a soma destes valores. */
+
 int main()
 {
     int vetor[5], soma = 0;
