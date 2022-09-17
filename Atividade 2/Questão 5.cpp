@@ -2,6 +2,13 @@
 
 using namespace std;
 
+/* Faça um programa que leia 10 números inteiros, armazene-os em um vetor,
+solicite um valor de referência inteiro e:
+a. Imprima os números do vetor que são maiores que o valor referência;
+b. Retorne quantos números armazenados no vetor são menores que o valor
+de referência;
+c. Retorne quantas vezes o valor de referência aparece no vetor. */
+
 int main()
 {
     int vetor[10], ref = 0, menores = 0, iguais = 0;
