@@ -2,6 +2,10 @@
 
 using namespace std;
 
+/* Altere o programa anterior para calcular e apresentar a média dos valores
+entrados e aqueles que são maiores e menores que a média.Faça um programa
+que leia 10 valores reais e os apresente na ordem inversa entrada. */
+
 int main()
 {
     int vetor[10];
