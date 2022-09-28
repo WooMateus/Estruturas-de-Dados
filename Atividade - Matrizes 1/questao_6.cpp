@@ -12,7 +12,7 @@ int main()
         for (int j = 0; j < 3; j++) {
             cout << "Digite o valor da Matriz["<<i<<"]"<<"["<<j<<"]: ";
             cin >> matriz[i][j];
-            if (j>i) {
+            if (j == i) {
 				soma = soma + matriz[i][j];
 			}
         }
